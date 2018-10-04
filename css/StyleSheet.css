@@ -1,0 +1,39 @@
+/*
+Name: Nico Herrmann
+Matrikel: 259242
+Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. 
+Er wurde nicht kopiert und auch nicht diktiert.
+*/
+
+/* Die Schriftart "IBM Plex Sans" wird aus google importiert */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+
+html {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	color: black;
+	text-align: center;
+}
+
+h1 {
+	color: darkred;
+	
+}
+
+a {
+	text-decoration: none;
+	background-color: darkred;
+	color: white;
+	font-weight: bold;
+	padding: 0.4em;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: white;
+	color: darkred;
+	font-weight: bold;
+	padding: 0.4em;
+}
